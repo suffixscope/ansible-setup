@@ -91,12 +91,12 @@ Note: Repeat above command by updating HOST IP for all the managed Servers.
 sudo vi /etc/ansible/hosts
 ```
 [webservers] <br/>
-172.31.47.247
+172.31.21.23
 <br/>
 [dbservers] <br/>
-172.31.44.90
+172.31.23.44
 
-## Step-5: Test Connectivity ##
+## Step-5: Test Connectivity using ansible adhoc command##
 ```
 ansible all -m ping
 ```
