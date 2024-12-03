@@ -26,8 +26,8 @@ ansible ALL=(ALL) NOPASSWD: ALL
 ```
 sudo vi /etc/ssh/sshd_config
 ```
--> comment PasswordAuthentication no
--> PermitEmptyPasswords yes
+-> chagne to PasswordAuthentication yes
+-> and  PermitEmptyPasswords yes
 
 ### d) Restart the server ###
 ```   
@@ -39,8 +39,8 @@ Note: Do the above steps in all the 3 machines
 
 ### a) Switch to Ansible user ### 
 ```
-sudo su ansible
-cd ~
+sudo su - ansible
+
 ```
 ### b) Install Python ###
 ```
@@ -72,7 +72,7 @@ sudo mkdir /etc/ansible
 ### a) Switch to ansible user ###
 
 ```
-sudo su ansible
+sudo su - ansible
 ```
 ### Generate ssh key using below command ###
 ```
