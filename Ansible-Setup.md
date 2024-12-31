@@ -17,7 +17,8 @@ sudo passwd ansible
 ### b) Configure user in sudoers file ###
 
 sudo visudo
-
+or 
+Vi /etc/sudoers
 ```
 ansible ALL=(ALL) NOPASSWD: ALL
 ```
