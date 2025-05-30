@@ -5,7 +5,7 @@
 1 - Control Node <br/>
 2 - Managed Nodes
 
-Note: Connect to all 3 VMs using MobaXterm
+Note: Connect to all 3 VMs using MobileXterm
 
 ## Step-1: Execute below commands in all 3 VMs ##
 
